@@ -1,6 +1,7 @@
-.a {
-  width: 590px;
+.dreptunghi {
+  width: 50%;
   height: 590px;
+  display: flex;
   background-color: aquamarine;
   box-shadow: 20px 20px 10px;
   border: 4px solid black;
@@ -16,44 +17,43 @@
   background-repeat: no-repeat;
   position: absolute;
   top: 27px;
-  right: 723px;
+  align-self:auto;
   border-radius: 20px;
   border: 4px solid black;
   opacity: 1.5;
   border-top: 3px solid black;
 }
 
-.oo {
-  width: 611px;
+.background-image {
+  width: 50%;
   height: 402px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./images.jpg");
   background-repeat: no-repeat;
   position: absolute;
+  justify-content: flex-start;
   border: 4px solid black;
   border-radius: 20px;
   top: 10px;
-  right: 458px;
+  align-self: center;
   border-radius: 20px;
   opacity: 0.2;
   border-top: 3px solid black;
+  
 }
 
 .text {
-  text-align: left;
+  align-content:flex end;
   font-family: Arial, sans-serif;
   margin-top: 395px;
 }
 
-h2 {
+h2{ /*Numele*/
   color: crimson;
-  font-size: 30px;
-}
-
-.pp {
-  right: 400px;
-}
+  font-size: 25px;
+} 
 
 table tr:nth-child(2) {
-  background-color: aqua;
-}
+    background-color: aqua;
+  }
+  
